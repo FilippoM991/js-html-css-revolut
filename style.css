@@ -1,0 +1,62 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(http://www.desktopwallpaperhd.net/wallpapers/3/3/screensavers-general-art-sfondi-random-fantastici-35491.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    height: 100px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+#header-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+#header-left img {
+    height: 100%;
+}
+#header-left h1 {
+    margin-left: 20px;
+    align-self: center;
+}
+#header-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    display: inline-block;
+    position: relative;
+    margin:0 40px;
+
+}
+.menu-item  a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.menu-item  a:hover {
+    color: blue;
+}
+.dropdown-menu {
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 20px 30px 20px 10px;
+    display: none;
+}
+.dropdown-menu-item {
+    padding: 10px;
+}
